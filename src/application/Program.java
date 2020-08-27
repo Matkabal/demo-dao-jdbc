@@ -52,6 +52,11 @@ public class Program {
 		seller = sellerDao.findById(1);
 		seller.setName("Martha Wayne");
 		sellerDao.update(seller);
+		
+		System.out.println("\n=== TEST 6 seller  =====");
+		
+		sellerDao.deleteById(8);
+
 	}
 
 }
